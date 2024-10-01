@@ -1,0 +1,26 @@
+.user-details-card {
+    background-color: #f9f9f9; /* Light background for the card */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the card */
+    margin: 20px; /* Margin around the card */
+    width: 100%; /* Set a large width */
+    max-width: 600px; /* Limit the maximum width */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .user-details-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .user-details-card h2 {
+    color: #2c3e50; /* Darker color for the title */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .user-details-card p {
+    color: #34495e; /* Softer color for text */
+    margin: 5px 0; /* Space between paragraphs */
+  }
+  

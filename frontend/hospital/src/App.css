@@ -1,0 +1,121 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #16222A; /* Dark background for the whole app */
+}
+
+.header {
+  background-color: #467a92; /* Light blue for the header */
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px;
+  background-color: #34495e; /* Adjusted for consistency */
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Profile section styling */
+.profile-section {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.profile-image:hover {
+  opacity: 0.8;
+}
+
+/* Sidebar list styling */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background-color: #575757;
+}
+
+/* Name tag styling */
+.name-tag {
+  margin-bottom: 25px;  
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+/* Logout button */
+.logout-button {
+  margin-top: auto; 
+  background-color: #e74c3c; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 50%; 
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #c0392b; 
+}
+
+/* Login button */
+.login-button {
+  margin-top: auto; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%; 
+  border-radius: 5px;
+}
+
+.login-button:hover {
+  background-color: blueviolet; 
+}

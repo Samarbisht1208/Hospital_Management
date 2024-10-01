@@ -1,0 +1,152 @@
+/* Main card styling */
+.record-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+    width: auto;
+}
+
+.record-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Background blur when modal is active */
+.blur-background {
+    filter: blur(4px);
+    pointer-events: none;
+}
+
+/* Modal popup for editing */
+.edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 90%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+/* Background blur when modal is active */
+.edit-modal + .blur-background {
+    filter: blur(8px);
+}
+
+/* Button styles */
+.delete-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.close-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s ease;
+    margin-top: 1px;
+}
+
+.close-button:hover {
+    background-color: #0056b3;
+}
+
+/* Delete confirmation popup */
+.delete-confirm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    width: 300px;
+    text-align: center;
+}
+
+/* Confirm and Cancel buttons */
+.confirm-button {
+    background-color: rgb(224, 27, 37);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.confirm-button:hover {
+    background-color: darkred;
+}
+
+.cancel-button {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.cancel-button:hover {
+    background-color: darkgrey;
+}
+
+
+
+/* new */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space between the buttons */
+    margin-top: 10px; /* Add some space above */
+}
+
+.delete-confirm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    width: 300px;
+    text-align: center;
+}
+
+.delete-confirm-buttons {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+}
+
+.edit-modal-heading{
+    text-align: center;
+    color: #007bff;;
+}

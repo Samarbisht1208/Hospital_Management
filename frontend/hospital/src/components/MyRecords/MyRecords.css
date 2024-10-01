@@ -1,0 +1,66 @@
+.records-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.record-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 110vh;
+    max-width: 1000px;
+    min-width: 500px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.record-card:hover {
+    transform: scale(1.02);
+}
+
+.record-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.record-header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.record-date {
+    font-size: 14px;
+    color: #777;
+}
+
+.record-content {
+    font-size: 16px;
+    color: #555;
+}
+
+.record-content p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.record-content strong {
+    color: #333;
+}
+
+/* Center department name */
+.department-name {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}

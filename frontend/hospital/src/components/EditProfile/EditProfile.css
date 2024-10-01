@@ -1,0 +1,149 @@
+.edit-profile {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-profile h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.edit-profile form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-profile form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-profile label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.edit-profile input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.save-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-button {
+    background-color: #218838;
+}
+
+.edit-profile .error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.edit-profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-account-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    max-width: 150px;
+}
+
+.delete-confirm-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.delete-confirm-modal button {
+    margin: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-confirm-modal button:first-of-type {
+    background-color: red;
+    color: white;
+}
+
+.delete-confirm-modal button:last-of-type {
+    background-color: grey;
+    color: white;
+}
+
+
+/* Blurred background class */
+.blur-background {
+    filter: blur(5px); /* Blur effect */
+    pointer-events: none; /* Prevent interaction with the blurred content */
+}
+
+/* Modal styling */
+.delete-confirm-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(85, 69, 69);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styling for the modal buttons */
+
+.question{
+    color: wheat;
+}
+
+.delete-confirm-modal button {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.delete-confirm-modal button:last-child {
+    background-color: #ccc;
+}
+
